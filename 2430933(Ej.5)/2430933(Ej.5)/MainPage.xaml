@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_2430933_Ej._5_.MainPage">
+
+    <StackLayout  VerticalOptions="Center" HorizontalOptions="Center">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <Style x:Key="EstiloBoton" TargetType="Button">
+                    <Setter Property="FontSize" Value="22"/>
+                    <Setter Property="Margin" Value="10"/>
+                </Style>
+            </ResourceDictionary>
+        </StackLayout.Resources>
+
+        <Button Text="Boton1" Style="{StaticResource EstiloBoton}"/>
+        <Button Text="Boton2" Style="{StaticResource EstiloBoton}"/>
+        <Button Text="Boton3" Style="{StaticResource EstiloBoton}"/>
+    </StackLayout>
+
+</ContentPage>
